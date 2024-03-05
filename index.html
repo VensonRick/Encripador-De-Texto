@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codificador de Texto</title>
+    <link rel="stylesheet" href="Style/style.css">
+    <link rel="shortcut icon" href="Assets/icon.png" type="image/x-icon">
+</head>
+<body class="bodyclass">
+        <main class="mainclass">
+            <header class="headerclass">
+                <img src="Assets/Logo1.png" alt="logo">
+                
+                 </header>
+            
+            <div class="input-container">
+            
+                <div class="input">
+                    <textarea id="input-text" placeholder="Digite seu texto aqui"></textarea>
+                    
+                    <p><img src="Assets/exclamacao.png"> Atenção apenas letras minusculas e sem acento</p>
+                </div>
+            
+            <div id="output">
+                <img src="Assets/fundoout.png" alt="imagem menino segurando lupa">
+                <h2>Sua mensagem ira aparecer aqui</h2>
+                <span>
+                    Digite um texto que deseja criptografar ou descriptografar
+                </span>
+            </div>
+            </div>
+            <div class="btn">
+                <div class="btn-container">
+                    <button onclick="criptografar()" class="btncriptografar" type="button"><img src="Assets/cadeado.png" alt="Cadeado"> Criptografar
+
+                    </button> 
+                    <button onclick="descriptografar()" class="btndescriptografar" type="button"><img src="Assets/cadeado aberto.png" alt="Cadeado Aberto"> Descriptografar
+                    </button>
+                </div>
+
+            </div>
+
+        </main>
+    <footer class="footerclass">
+        <div class="icons">
+            <a href="https://www.linkedin.com/in/richard-venson/"><img src="Assets/linkedin_square_icon.png">
+            </a>
+            <a href="https://github.com/VensonRick"><img src="Assets/github_square_icon.png" alt="logo github">
+            </a>
+        </div>
+        <h3>Desenvolvido por </h3>
+    </footer>
+    <script src="script.js"></script>
+    
+</body>
+</html>

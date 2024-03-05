@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Protest Riot", sans-serif;
+
+}
+:root{
+    --cor-fundo: #756AB6;
+    --cor-azulescuro: #0A3871;
+    --cor-botaohover: #AC87C5;
+    --branco: #fff;
+    --cor-botaodes: #D8DFE8;
+    --cor-titulo: #000000;  
+}
+
+.bodyclass{
+    
+    background-color: var(--cor-fundo);
+    min-height: 100vh
+}
+
+.headerclass{
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 0 0 2%;
+    width: 50px;
+    height: 50px;
+    
+
+}
+
+.headerclass img {
+    max-width: 50px;
+    max-height: 50px;
+    width: 40px ;
+    height: 40px;   
+}
+.input-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 0 0 4%;
+}
+.input-container .input{
+    width: 400px;
+    height: 330px;
+
+}
+
+#input-text{
+    width: 345px;
+    height: 600px;
+    font-size: 1.25rem;
+    color: var(--cor-titulo);
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    outline: 0;
+    padding: 10px;
+    text-transform: lowercase;
+    max-height: 600px;
+}
+#input-text::placeholder{
+    color: var(--cor-azulescuro);
+}
+#output{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid var(--cor-titulo);
+    border-radius: 20px;
+    width: 350px;
+    height: 650px;
+    margin-right: 3%;
+    align-items: center;
+    word-spacing: 5px;
+
+}
+#output h2{
+    text-align: center;
+    font-size: 1.563rem;
+    color: var(--cor-titulo);
+
+}
+#output img{
+    max-width: 300px;
+    max-height: 300px;
+    width: auto;
+    height: auto;
+    margin-top: 30%;
+    border-radius: 5%;
+}
+
+#output span{
+    font-size: 1rem;
+    text-align: center;
+
+}
+.btncriptografar, .btndescriptografar{
+    border: 2px solid var(--cor-titulo);
+    background-color: var(--cor-azulescuro);
+    border-radius: 10px;
+    text-decoration: none;
+    color: var(--branco);
+    width: 150px;
+    height: 50px;
+    margin-left: 4%;
+    cursor: pointer;
+}
+.btndescriptografar{
+    background-color: var(--cor-botaodes);
+    color: var(--cor-titulo);
+
+
+}
+.btn-copy{
+border: 2px solid var(--cor-titulo);
+border-radius: 10px;
+text-decoration: none;
+color: var(--cor-azulescuro);
+width: 150px;
+height: 50px;
+margin-bottom: 10%;
+cursor: pointer;
+}
+.btn-container img{
+    max-width: 15px;
+}
+.btn-container :hover{
+    border: 2px solid var(--cor-botaohover);
+    transition: 0.3s all;
+}
+.footerclass{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2% 2% 2% 2%;
+    margin-top: 2%;
+    
+    background: var(--cor-botaohover);
+    color: var(--cor-titulo);
+}
+.footerclass h3{
+    font-size: 1rem;
+
+}
+.icons a{
+    display: inline;
+    text-decoration: none;
+}
+.icons img{
+    width: 25px;
+    height: 25px;
+    gap: 4px;
+    color: var(--cor-titulo);
+    transition: filter 0.3s ease;
+}
+.icons img:hover{
+    background-color: var(--cor-botaohover);
+}
